@@ -1,0 +1,145 @@
+@media screen and (min-width: 693px) {
+
+ /********** GENERAL **********/ 
+  
+  
+/********** HEADER **********/
+  
+  #banner {
+    margin-top: 1em;
+    margin-bottom: 1em; 
+  }
+  
+  h1, 
+  .tinyman {
+    display: inline-block;
+    vertical-align: middle; 
+  }
+  
+  h1 {
+    font-size: 3.8em;
+    margin: 0 auto; 
+  }
+  
+  .tinyman {
+    min-width: 130px;
+    height: 130px;
+  }
+  
+/********** NAVIGATION **********/  
+  
+  nav li {
+  font-size: 2em;
+  padding: 0px 0px 0px;
+}
+
+/********** IFRAME **********/
+  
+  #overlay iframe {
+    margin-top: 10%;
+    margin-bottom: 2%; 
+    height: 40%;
+    width: 80%;
+  }
+
+/********** ABOUT PAGE **********/ 
+
+  .about-photo {
+    float: left;
+    margin: 0 30px 0 0;
+    padding: 0 0 0 90px; 
+  }
+  
+  .about-main p {
+    margin: 30px auto 0;
+  }
+  
+/********** RESUME/CV PAGE **********/ 
+  
+  h2 {
+  width: 70%;
+  margin: 30px auto 25px;
+  font-size: 1.9em;
+}
+
+.feature-films, 
+.television,
+.short-films,
+.awards {
+  font-size: 1.5em; 
+  width: 70%; 
+  margin: 0 auto;
+}
+  
+  
+  
+/********** CONTACT TW0 PAGE **********/ 
+
+.contact-links {
+  margin-top: 2em; 
+  font-size: 1.8em; 
+}
+
+.contact-links a {
+  background-size: 30px; 
+}
+  
+.available { 
+  margin: -1em auto 1em; 
+}
+  
+@media screen and (min-width: 1042px) {
+
+/********** HEADER **********/
+  
+  #banner {
+    margin-top: 1em;
+    margin-bottom: 1em; 
+  }
+  
+  h1, 
+  .tinyman {
+    display: inline-block;
+    vertical-align: middle; 
+  }
+  
+  h1 {
+    font-size: 4.3em;
+    margin: 0 auto; 
+  }
+  
+  .tinyman {
+    min-width: 160px;
+    height: 160px;
+  }
+  
+/********** NAVIGATION **********/  
+  
+  nav li {
+    font-size: 2.2em;
+    padding: 0px 0px 0px;
+  }
+  
+/********** IFRAME *************/
+  
+  #overlay iframe {
+    margin-top: 5%;
+    margin-bottom: 2%; 
+    height: 60%;
+    width: 80%;
+  }
+  
+
+/********** CONTACT TW0 PAGE **********/ 
+
+
+  .contact-links {
+    margin-top: 2em; 
+    font-size: 2em; 
+  }
+
+  .contact-links a {
+    background-size: 35px; 
+  }
+  
+}

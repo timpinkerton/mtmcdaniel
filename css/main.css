@@ -1,0 +1,265 @@
+/*******************************************************
+GENERAL
+*******************************************************/
+
+body {
+  font-family: 'amatic SC', cursive;
+  margin: 0 auto;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 940px;
+  margin: 0 auto 90px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.5em;
+  width: 80%;
+  margin: 0 10% 25px;
+}
+
+/*******************************************************
+HEADER
+*******************************************************/
+
+#banner {
+  width: 90%; 
+  margin: .2em auto 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 2.6em;
+  margin: 0; 
+  white-space: nowrap; 
+  text-align: center;
+}
+
+.tinyman {
+  min-width: 90px;
+  height: 90px;
+}
+
+/*******************************************************
+NAVIGATION
+*******************************************************/
+
+nav {
+  text-align: center;
+  border-bottom: 2px solid #000;
+  margin: 5px 0 0 0; 
+}
+
+nav ul {
+  margin: 0 80px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  font-size: 1.6em;
+  padding: 0;
+}
+
+nav a {
+  padding: 2px 16px; /*makes clickable area of links bigger*/
+}
+
+/*******************************************************
+PORTFOLIO PAGE
+*******************************************************/
+
+#imageGallery {
+  padding: 0;
+  margin: 30px auto 20px;
+  text-align: center;
+  display: inline-block;  
+}
+
+#imageGallery li {
+  margin: 0 6px 5px;
+  width: 299px;
+  height: 177px; 
+  display: inline-block;
+  padding: 0px 0px 60px 0px;
+}
+
+.video-container a {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#imageGallery p {
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 299px;
+}
+
+/*******************************************************
+OVERLAY
+*******************************************************/
+
+#overlay {
+  background: rgba(0,0,0,0.85); 
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay iframe {
+  margin-top: 14%;
+  margin-bottom: 2%;
+  height: 30%;
+  width: 70%;
+}
+
+#overlay p {
+  color: azure;
+}
+
+/*******************************************************
+ABOUT PAGE
+*******************************************************/
+
+.about-photo {
+  display: block;
+  max-width: 35%;
+  margin: 30px auto 30px; /* top, left and right, bottom */
+}
+
+.about-main p {
+  margin: 30px auto 30px; 
+}
+
+
+/*******************************************************
+RESUME/CV PAGE
+*******************************************************/
+
+h2 {
+  width: 100%;
+  max-width: 400px; 
+  margin: 30px auto 25px;
+  font-size: 1.7em;
+}
+
+.feature-films, 
+.television,
+.short-films,
+.awards {
+  font-size: 1.3em; 
+  width: 100%; 
+  max-width: 400px; 
+  margin: 0 auto;
+  white-space: nowrap; 
+}
+
+/*******************************************************
+CONTACT-TWO PAGE
+*******************************************************/
+
+/*
+.contact-info h3 {
+  text-align: center; 
+  font-size: 1.4em; 
+}
+*/
+
+.contact-links {
+  width: 80%;
+  padding: 0; 
+  margin: 2em auto; 
+  font-size: 1.45em; 
+}
+
+.contact-links a {
+  display: block; 
+  min-height: 20px; 
+  background-repeat: no-repeat;
+  background-size: 20px; 
+  padding-left: 1.3em;
+  margin: 0 auto 1em; 
+  width: 60%; 
+  text-align: center; 
+}
+
+.available {
+  padding-left: 1.3em; 
+  margin: -1em auto 1em; 
+  width: 60%; 
+  text-align: center;
+  font-size: .65em; 
+}
+
+.contact-links li.email a {
+  background-image: url('../images/email%20icon.png');
+}
+
+.contact-links li.location a {
+  background-image: url('../images/location%20icon.png'); 
+}
+
+/*******************************************************
+FOOTER
+*******************************************************/
+
+footer {
+  text-align: center;
+  margin: 5px 0 0 0; 
+}
+
+footer ul {
+  margin: 0 80px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+/*  font-size: 1em;*/
+  padding: 0px 10px 20px;
+  width: 40px
+}
+
+footer a {
+  padding: 1px; /*makes clickable area of links bigger*/
+}
+
+/*******************************************************
+COLORS
+*******************************************************/
+
+a {
+  color: black;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+nav li.selected a {
+  background: black;
+  color: white;
+}
